@@ -1,0 +1,154 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main-content {
+    padding: 20px 0;
+}
+
+.blog-post {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.blog-post:hover {
+    transform: scale(1.02);
+}
+
+.blog-post h2 {
+    color: #333;
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.blog-post img:hover {
+    transform: scale(1.1);
+}
+
+.meta-info {
+    margin-top: 10px;
+    color: #555;
+}
+
+.comments {
+    margin-top: 20px;
+}
+
+.comments h3 {
+    color: #333;
+}
+
+#comment-list li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+#comment-list li:last-child {
+    border-bottom: none;
+}
+
+#comment-form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+a {
+    color: #0e58ce;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0e58ce;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header {
+        padding: 15px 0;
+    }
+
+    .blog-post {
+        padding: 15px;
+    }
+
+    #comment-form {
+        margin-top: 15px;
+    }
+
+    button {
+        padding: 8px 15px;
+    }
+}

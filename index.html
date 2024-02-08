@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rohan's Blog</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Rohan's Blog</h1>
+            <nav>
+                <ul>                    
+                    <li><a href="./public/Summary.html">About</a></li>
+                    <li><a href="./public/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main-content container">
+        <article class="blog-post">
+            <h2>Exploring the Wonderful World</h2>
+            <img src="./images/Tokyo tower.jpg" alt="Tokyo tower">
+            <p>Built in 1958, and standing 333 meters tall, Tokyo Tower serves as a symbol of Tokyo's rebirth after World War II. At the time of its completion, it was the tallest tower in the world, surpassing even its inspiration, the Eiffel Tower.</p>
+            <div class="meta-info">
+                <span class="author">By Rohan Londhe,</span>
+                <span class="date">Published on December 30, 2023</span>
+            </div>
+            <div class="comments">
+                <h3>Comments</h3>
+                <ul id="comment-list">
+                    <!-- Comments will be added dynamically using JavaScript -->
+                </ul>
+                <form id="comment-form">
+                    <label for="comment">Add a Comment:</label>
+                    <textarea id="comment" name="comment" rows="4" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Rohan's Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
